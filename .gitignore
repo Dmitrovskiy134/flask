@@ -1,0 +1,19 @@
+# Локальное окружение и настройки IDE
+.venv/
+venv/
+.idea/
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Локальная база объявлений и служебные файлы SQLite
+ads.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Системные файлы
+.DS_Store
+Thumbs.db
